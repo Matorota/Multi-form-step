@@ -1,5 +1,5 @@
 import React from "react";
-import bgSidebarDesktop from "../assets/images/bg-sidebar-desktop.svg"; // Ensure the correct path to the image
+import bgSidebarDesktop from "../assets/images/bg-sidebar-desktop.svg";
 
 const Sidebar: React.FC<{ step: number }> = ({ step }) => {
   const steps = [
