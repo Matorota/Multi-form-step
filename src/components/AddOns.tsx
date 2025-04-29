@@ -59,7 +59,7 @@ const Step3: React.FC<Step3Props> = ({
   };
 
   return (
-    <div className="p-6 bg-white rounded-lg shadow-md">
+    <div className="p-10 bg-white rounded-lg ">
       <h2 className="text-3xl font-bold text-[#02295A] mb-4">Pick add-ons</h2>
       <p className="text-[#9699AA] mb-6">
         Add-ons help enhance your gaming experience.

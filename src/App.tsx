@@ -4,7 +4,7 @@ import MultiStepForm from "./components/MultiStepForm";
 
 function App() {
   return (
-    <div className="min-h-screen bg-blue-50 flex items-center justify-center">
+    <div className="min-h-screen bg-grey flex items-center bg-amber-100 justify-center">
       <MultiStepForm />
     </div>
   );

@@ -3,6 +3,7 @@ import iconArcade from "../assets/images/icon-arcade.svg";
 import iconAdvanced from "../assets/images/icon-advanced.svg";
 import iconPro from "../assets/images/icon-pro.svg";
 
+// dont use this way find a diferent one (task for my self)
 interface Step2Props {
   nextStep: () => void;
   prevStep: () => void;
@@ -58,7 +59,7 @@ const Step2: React.FC<Step2Props> = ({
   };
 
   return (
-    <div className="p-6 bg-white rounded-lg shadow-md">
+    <div className="p-6 bg-white rounded-lg ">
       <h2 className="text-3xl font-bold text-[#02295A] mb-4">
         Select your plan
       </h2>
@@ -90,7 +91,7 @@ const Step2: React.FC<Step2Props> = ({
         ))}
       </div>
 
-      {/* Billing Toggle */}
+      {/* Billing to fix */}
       <div className="flex items-center justify-center bg-[#F8F9FF] p-4 rounded-lg mt-6">
         <div className="flex items-center space-x-4">
           <span
@@ -122,7 +123,6 @@ const Step2: React.FC<Step2Props> = ({
         </div>
       </div>
 
-      {/* Navigation Buttons */}
       <div className="flex justify-between mt-6">
         <button
           onClick={prevStep}

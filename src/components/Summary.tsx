@@ -52,7 +52,7 @@ const Step4: React.FC<Step4Props> = ({ prevStep, formData, nextStep }) => {
   const totalPrice = planPrice + addonsPrice;
 
   return (
-    <div className="p-6 bg-white rounded-lg shadow-md">
+    <div className="p-6 bg-white rounded-lg ">
       <h2 className="text-3xl font-bold text-[#02295A] mb-4">Finishing up</h2>
       <p className="text-[#9699AA] mb-6">
         Double-check everything looks OK before confirming.

@@ -26,7 +26,7 @@ const Step1: React.FC<Step1Props> = ({
       name as "name" | "email" | "phone" | "plan" | "billing" | "addons",
       value
     );
-    setErrors({ ...errors, [name]: "" }); // Clear error when user types
+    setErrors({ ...errors, [name]: "" });
   };
 
   const handleNext = () => {
@@ -43,13 +43,12 @@ const Step1: React.FC<Step1Props> = ({
   };
 
   return (
-    <div className="p-6 bg-white rounded-lg shadow-md">
+    <div className="p-6 bg-white rounded-lg ">
       <h2 className="text-3xl font-bold text-[#02295A] mb-4">Personal Info</h2>
       <p className="text-[#9699AA] mb-6">
         Please provide your name, email address, and phone number.
       </p>
       <form className="space-y-4">
-        {/* Name Field */}
         <div>
           <label className="block text-sm font-medium text-[#02295A]">
             Name
@@ -69,7 +68,7 @@ const Step1: React.FC<Step1Props> = ({
           )}
         </div>
 
-        {/* Email Field  JUST TESTING NOT RL NEEDED*/}
+        {/* Email Field  JUST TESTING NOT RL NEEDED could be done diferently*/}
         <div>
           <label className="block text-sm font-medium text-[#02295A]">
             Email Address
@@ -109,7 +108,6 @@ const Step1: React.FC<Step1Props> = ({
           )}
         </div>
 
-        {/* Next Step Button */}
         <div className="flex justify-end">
           <button
             type="button"
